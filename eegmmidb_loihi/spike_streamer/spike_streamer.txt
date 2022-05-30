@@ -1,0 +1,1 @@
+Replace this empty folder with spike_streamer from nxsdk_modules in nxsdk-apps-1.0.0
