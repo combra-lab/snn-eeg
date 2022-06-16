@@ -1,6 +1,6 @@
 # Decoding EEG with Spiking Neural Networks on Neuromorphic Hardware
 
-This package is the PyTorch implementation of the Spiking Neural Network for decoding EEG on Neuromorphic Hardware. The paper has been accepted at TMLR and is available on [OpenReview](https://openreview.net/forum?id=ZPBJPGX3Bz)
+This package is the PyTorch implementation of the Spiking Neural Network for decoding EEG on Neuromorphic Hardware which is 95\% more energy-efficient than deep neural networks while obtaining similar classification performance. The paper has been accepted at TMLR and is available on [OpenReview](https://openreview.net/forum?id=ZPBJPGX3Bz).
 
 ## Software Installation ##
 * Python 3.7 or higher
@@ -59,4 +59,4 @@ KAPOHOBAY=1 python online_loihi_inf.py
 This will test the model that is trained on the GPU and deployed on Loihi. To run the code correctly, `MODEL_DIR` value in the script needs to be changed to the directory that stores the trained model.
 
 ## Acknowledgment ##
-This work is supported through the Grant K12HD093427 from the National Center for Medical Rehabilitation Research, NIH/NICHD, and also by Intel's Neuromorphic Research Community Grant Award
+This work is supported through the Grant K12HD093427 from the National Center for Medical Rehabilitation Research, NIH/NICHD; and Intel's Neuromorphic Research Community Grant Award
