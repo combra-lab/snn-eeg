@@ -113,6 +113,10 @@ def train_network(dataset=EEGDataset2DLeftRight, network=WrapCUBASpikingCNN,
             optimizer.step()
             running_loss += loss.to('cpu').item()
             train_ita = i
+        
+        for param in decay_params:
+            param.data = param.data.clamp(min=1e-7)
+            
         net.eval()
         acc, class_acc = test_accuracy(net, val_loader, device)
         net.train()
