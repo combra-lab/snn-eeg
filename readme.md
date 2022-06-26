@@ -2,6 +2,20 @@
 
 This package is the PyTorch implementation of the Spiking Neural Network for decoding EEG on Neuromorphic Hardware which is 95\% more energy-efficient than deep neural networks while obtaining similar classification performance. The paper has been accepted at TMLR and is available on [OpenReview](https://openreview.net/forum?id=ZPBJPGX3Bz).
 
+## Citation ##
+
+N. Kumar, G. Tang, R. Yoo, and K. P. Michmizos, **"Decoding EEG With Spiking Neural Networks on Neuromorphic Hardware,"** Transactions on Machine Learning Research (TMLR), 2022, url: [https://openreview.net/forum?id=ZPBJPGX3Bz](https://openreview.net/forum?id=ZPBJPGX3Bz).
+
+```bibtex
+@article{kumar2022decoding,
+title={Decoding EEG With Spiking Neural Networks on Neuromorphic Hardware},
+author={Neelesh Kumar and Guangzhi Tang and Raymond Yoo and Konstantinos P. Michmizos},
+journal={Transactions on Machine Learning Research},
+year={2022},
+url={https://openreview.net/forum?id=ZPBJPGX3Bz},
+note={}}
+```
+
 ## Software Installation ##
 * Python 3.7 or higher
 * PyTorch 1.2 (with CUDA 10.0)
